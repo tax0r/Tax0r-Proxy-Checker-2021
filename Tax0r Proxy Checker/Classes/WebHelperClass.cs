@@ -22,7 +22,6 @@ namespace Tax0r_Proxy_Checker.Classes
             {
                 WebResponse webResponse = (HttpWebResponse)webRequest.GetResponse();
                 string resp = webResponse.GetResponseStream().ToString();
-                Console.WriteLine(resp);
                 return true;
             }
             catch

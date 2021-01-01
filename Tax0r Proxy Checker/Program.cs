@@ -17,7 +17,7 @@ namespace Tax0r_Proxy_Checker
 
             Console.Title = $"tax0r Proxy Checker 2021 - Good: {good} / Bad: {bad} / Total: {total} | Timeout: {timeout}ms";
 
-            Console.WriteLine("{+} drag&drop your proxylist [+]", Color.LightPink);
+            Console.WriteLine("{+} drag&drop your proxylist {+}", Color.LightPink);
 
             string key = '"'.ToString();
             string input = Console.ReadLine();
@@ -41,7 +41,6 @@ namespace Tax0r_Proxy_Checker
             Console.Clear();
             foreach (string proxie in proxies)
             {
-                
                 if (webHelper.PingProxy(proxie, timeout))
                 {
                     Console.WriteLine("{+} " + proxie, Color.Green);
