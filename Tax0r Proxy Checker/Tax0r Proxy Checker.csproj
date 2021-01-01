@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Tax0r_Proxy_Checker</RootNamespace>
+    <StartupObject>Tax0r_Proxy_Checker.Program</StartupObject>
+    <ApplicationIcon>Youdu-Mobile-Network.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Classes\FileHelperClass.cs~RF951306.TMP" />
+    <None Remove="Classes\WebHelperClass.cs~RFa96115.TMP" />
+    <None Remove="Classes\WindowHelperClass.cs~RFb297aa.TMP" />
+    <None Remove="Program.cs~RF89dd17.TMP" />
+    <None Remove="Program.cs~RF97a588.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Colorful.Console" Version="1.2.15" />
+  </ItemGroup>
+
+</Project>
