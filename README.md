@@ -19,19 +19,13 @@
 ## Install
 
 ```sh
-npm install
+Download the current release.
 ```
 
 ## Usage
 
 ```sh
 Execute the .exe and drag&drop your proxyfile. Then enter a timeout and hit enter
-```
-
-## Run tests
-
-```sh
-npm run test
 ```
 
 ## Author
